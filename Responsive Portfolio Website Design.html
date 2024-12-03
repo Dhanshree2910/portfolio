@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0068)file:///C:/Users/user/Desktop/New%20folder/My%20portfolio/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website Design</title>
+    <link rel="stylesheet" href="./Responsive Portfolio Website Design_files/style.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="./Responsive Portfolio Website Design_files/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="i class=fa-solid fa-d"></i>                                                               
+                    <div class="logo-text">Dhanashree Gongane</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="file:///C:/Users/user/Desktop/New%20folder/My%20portfolio/index.html#">Home</a></li>
+                        <li><a href="https://www.figma.com/proto/F9y8vlzQ5xsBiTmKKkOknK/UI%2FUX-Case-Study-Template-(Community)?node-id=331-9396&amp;node-type=frame&amp;t=nsO5mzCyviFhXGA2-1&amp;scaling=min-zoom&amp;content-scaling=fixed&amp;page-id=163%3A6203"> Case Study</a></li>
+                        <li><a href="https://www.figma.com/proto/F9y8vlzQ5xsBiTmKKkOknK/UI%2FUX-Case-Study-Template-(Community)?node-id=163-6205&amp;node-type=frame&amp;t=e2pAr09SJjv2xYIZ-1&amp;scaling=min-zoom&amp;content-scaling=fixed&amp;page-id=163%3A6204">Live Demo</a></li>
+                        <li><a href="file:///C:/Users/user/Desktop/New%20folder/My%20portfolio/index.html#">Blog</a></li>
+                        <li><a href="file:///C:/Users/user/Desktop/New%20folder/My%20portfolio/index.html#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                 <div class="hero-pic">
+                    <img src="./Responsive Portfolio Website Design_files/celebration-labour-day-with-3d-cartoon-portrait-working-woman.jpg" alt="profile pic">
+                 </div>
+                 <div class="hero-text">
+                    <h5>Hi I'm <span class="input">UX Designer</span><span class="typed-cursor">|</span></h5>
+                    <h1>Dhanashree Gongane</h1>
+                    <p> Responsible for designing and implementing user-centered digital interfaces, combining creative design with front-end coding expertise. Key tasks include wireframing, prototyping, coding (HTML, CSS, JavaScript), ensuring responsiveness, and collaborating with teams to enhance usability and overall user experience. Must have an eye for detail, knowledge of design tools (Figma, Adobe XD), and experience with user testing.
+                    </p>
+
+                    <div class="btn-group">
+                       <a href="file:///C:/Users/user/Desktop/Dhanashree%20Gongane.pdf" class="btn active">Download CV</a>
+                       <a href="file:///C:/Users/user/Desktop/New%20folder/My%20portfolio/index.html#" class="btn">Contact</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="file:///C:/Users/user/Desktop/New%20folder/My%20portfolio/index.html#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="file:///C:/Users/user/Desktop/New%20folder/My%20portfolio/index.html#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="file:///C:/Users/user/Desktop/New%20folder/My%20portfolio/index.html#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="file:///C:/Users/user/Desktop/New%20folder/My%20portfolio/index.html#"><i class="fa-brands fa-dribbble"></i></a>
+                        <a href="file:///C:/Users/user/Desktop/New%20folder/My%20portfolio/index.html#"><i class="fa-brands fa-pintrest"></i></a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </div>
+     <!---typed js for typing text effect-->
+     <script src="./Responsive Portfolio Website Design_files/typed.min.js.download"></script>
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Frontend Developer","UX Designer","Web Developer"],
+            typedSpeed:70,
+            backSpeed:55,
+            loop:true
+        })
+     </script><style type="text/css" data-typed-js-css="true">
+        .typed-cursor{
+          opacity: 1;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        }
+      </style>
+
+
+</body></html>
